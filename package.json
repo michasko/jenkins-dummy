@@ -1,0 +1,20 @@
+{
+  "name": "jenkins-dummy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "mocha test/**/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "webpack": "^4.16.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.0.8"
+  }
+}
