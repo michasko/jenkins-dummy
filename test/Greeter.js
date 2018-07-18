@@ -23,10 +23,10 @@ describe('Greeter', () => {
 	})
 
 	it('allows custom greetings', () => {
-		let greeter = new Greeter(['mike', 'matthew'], 'Wazzup')
+		let greeter = new Greeter(['mike', 'john'], 'Wazzup')
 
-		expect(greeter.guests).to.deep.equal(['mike', 'matthew'])
-		expect(greeter.greet()).to.equal('Wazzup mike and matthew!')
+		expect(greeter.guests).to.deep.equal(['mike', 'john'])
+		expect(greeter.greet()).to.equal('Wazzup mike and john!')
 	})
 })
 
