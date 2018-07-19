@@ -19,7 +19,7 @@ describe('Greeter', () => {
 		greeter.addGuest('john')
 
 		expect(greeter.guests).to.deep.equal(['mike', 'matthew', 'john'])
-		expect(greeter.greeting).to.equal(`Hello mike, matthew and john! We've got 3 guests total!`)
+		expect(greeter.greeting).to.equal(`Hello mike, matthew and john! We've got 4 guests total!`)
 	})
 })
 
