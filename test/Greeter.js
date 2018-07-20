@@ -26,7 +26,7 @@ describe('Greeter', () => {
 		let greeter = new Greeter(['mike', 'john'], 'Wazzup')
 
 		expect(greeter.guests).to.deep.equal(['mike', 'john'])
-		expect(greeter.greet()).to.equal('Wazzup mike and john!')
+		expect(greeter.greet()).to.equal('Wazzup mike and john!!')
 	})
 })
 
